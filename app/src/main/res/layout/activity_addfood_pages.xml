@@ -69,7 +69,7 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textSarapan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -87,12 +87,12 @@
                     android:textSize="12sp" />
 
                 <ImageView
-                    android:id="@+id/img_add"
+                    android:id="@+id/img_add_1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_alignTop="@+id/textView"
+                    android:layout_alignTop="@+id/textSarapan"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
                     android:scaleType="center"
@@ -111,7 +111,7 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textSiang"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -129,12 +129,12 @@
                     android:textSize="12sp" />
 
                 <ImageView
-                    android:id="@+id/img_add"
+                    android:id="@+id/img_add_2"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_alignTop="@+id/textView"
+                    android:layout_alignTop="@+id/textSiang"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
                     android:scaleType="center"
@@ -153,7 +153,7 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textMalam"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -171,12 +171,12 @@
                     android:textSize="12sp" />
 
                 <ImageView
-                    android:id="@+id/img_add"
+                    android:id="@+id/img_add_3"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_alignTop="@+id/textView"
+                    android:layout_alignTop="@+id/textMalam"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
                     android:scaleType="center"
@@ -195,7 +195,7 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textSnack"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -213,12 +213,12 @@
                     android:textSize="12sp" />
 
                 <ImageView
-                    android:id="@+id/img_add"
+                    android:id="@+id/img_add_4"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_alignTop="@+id/textView"
+                    android:layout_alignTop="@+id/textSnack"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
                     android:scaleType="center"
