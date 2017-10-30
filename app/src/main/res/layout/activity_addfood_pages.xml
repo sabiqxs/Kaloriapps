@@ -74,7 +74,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:paddingLeft="50dp"
+                    android:layout_toEndOf="@+id/img_add_1"
+                    android:layout_toRightOf="@+id/img_add_1"
+                    android:paddingLeft="10dp"
                     android:text="Sarapan"
                     android:textSize="16sp" />
 
@@ -83,7 +85,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="40dp"
-                    android:paddingLeft="50dp"
+                    android:layout_toEndOf="@+id/img_add_1"
+                    android:layout_toRightOf="@+id/img_add_1"
+                    android:paddingLeft="10dp"
                     android:text="Belum ada makanan yang di input"
                     android:textSize="12sp" />
 
@@ -116,7 +120,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:paddingLeft="50dp"
+                    android:layout_toEndOf="@+id/img_add_2"
+                    android:layout_toRightOf="@+id/img_add_2"
+                    android:paddingLeft="10dp"
                     android:text="Makan Siang"
                     android:textSize="16sp" />
 
@@ -125,7 +131,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="40dp"
-                    android:paddingLeft="50dp"
+                    android:layout_toEndOf="@+id/img_add_2"
+                    android:layout_toRightOf="@+id/img_add_2"
+                    android:paddingLeft="10dp"
                     android:text="Belum ada makanan yang di input"
                     android:textSize="12sp" />
 
@@ -158,7 +166,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:paddingLeft="50dp"
+                    android:layout_toEndOf="@+id/img_add_3"
+                    android:layout_toRightOf="@+id/img_add_3"
+                    android:paddingLeft="10dp"
                     android:text="Makan malam"
                     android:textSize="16sp" />
 
@@ -167,7 +177,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="40dp"
-                    android:paddingLeft="50dp"
+                    android:layout_toEndOf="@+id/img_add_3"
+                    android:layout_toRightOf="@+id/img_add_3"
+                    android:paddingLeft="10dp"
                     android:text="Belum ada makanan yang di input"
                     android:textSize="12sp" />
 
@@ -200,7 +212,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:paddingLeft="50dp"
+                    android:layout_toEndOf="@+id/img_add_4"
+                    android:layout_toRightOf="@+id/img_add_4"
+                    android:paddingLeft="10dp"
                     android:text="Snack/Lainnya"
                     android:textSize="16sp" />
 
@@ -209,7 +223,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="40dp"
-                    android:paddingLeft="50dp"
+                    android:layout_toEndOf="@+id/img_add_4"
+                    android:layout_toRightOf="@+id/img_add_4"
+                    android:paddingLeft="10dp"
                     android:text="Belum ada makanan yang di input"
                     android:textSize="12sp" />
 
