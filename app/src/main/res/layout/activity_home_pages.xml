@@ -2,13 +2,16 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#dfdfdf"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    >
+    tools:context="com.apps.awey.kaloriapps.activity_home_pages">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="20dp"
-            app:cardBackgroundColor="@color/cardview_shadow_end_color">
+            app:cardBackgroundColor="#fff">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -29,24 +32,23 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="20dp"
-                    android:text="Goal"
-                    />
+                    android:text="Goal" />
 
                 <TextView
                     android:id="@+id/txt_goal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
+                    android:paddingLeft="20dp"
                     android:text="2500"
-                    android:textSize="30sp"
-                    android:paddingLeft="20dp"/>
+                    android:textSize="30sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:text="Tersisa"
-                    android:paddingRight="25dp"/>
+                    android:paddingRight="25dp"
+                    android:text="Tersisa" />
 
                 <TextView
                     android:id="@+id/txt_tersisa"
@@ -54,9 +56,9 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_marginTop="20dp"
+                    android:paddingRight="20dp"
                     android:text="500"
-                    android:textSize="30sp"
-                    android:paddingRight="20dp"/>
+                    android:textSize="30sp" />
 
             </RelativeLayout>
         </android.support.v7.widget.CardView>
@@ -65,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="20dp"
-            app:cardBackgroundColor="@color/cardview_shadow_end_color">
+            app:cardBackgroundColor="#fff">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -111,7 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
 
-            app:cardBackgroundColor="@color/cardview_shadow_end_color">
+            app:cardBackgroundColor="#fff">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -151,6 +153,20 @@
                     android:src="@drawable/img_blog" />
 
             </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:onClick="nextPage"/>
         </android.support.v7.widget.CardView>
 
     </LinearLayout>
